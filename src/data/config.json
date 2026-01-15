@@ -1,0 +1,15 @@
+{
+  "cittaAgent": {
+    "affinity": {
+      "affinityType": "capabilitySubset"
+    },
+    "dataBucket": {
+      "bucketName": "alpha.tenant.data",
+      "rootPath": "qinstance1-tenant1",
+      "s3IAMRole": "citta_emr_serverless_role"
+    }
+  },
+  "features": ["logging", "metrics"],
+  "limits": [10, 50, 100],
+  "flags": [true, false]
+}

@@ -1,0 +1,49 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #2563eb;
+  margin-right: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+  width: 300px;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
