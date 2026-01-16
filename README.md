@@ -59,5 +59,4 @@ This project demonstrates:
 
 ---
 
-## 📂 Project Structure
 
