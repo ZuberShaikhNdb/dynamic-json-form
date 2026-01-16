@@ -1,16 +1,63 @@
-# React + Vite
+# Dynamic JSON Configuration Renderer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based application that dynamically renders editable UI forms from backend-provided JSON configuration.  
+The UI is generated entirely from data, without hardcoding any fields, and supports deeply nested objects and arrays.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Deployed Application:**  
+dynamic-json-form.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **GitHub Repository:**  
+https://github.com/your-username/dynamic-json-form
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Problem Overview
+
+Many internal platforms generate UI dynamically from backend configuration rather than hardcoded forms.  
+These configurations are often deeply nested, evolve over time, and must scale without code changes.
+
+This project demonstrates:
+- Data-driven UI rendering
+- Recursive component design
+- Clean state management for dynamic JSON structures
+
+---
+
+## ✨ Features
+
+- 🔁 **Fully Dynamic Rendering**
+  - UI generated entirely from JSON configuration
+  - No hardcoded keys or fields
+
+- 🧠 **Typed Schema Inference**
+  - Automatically infers data types (string, number, boolean, object, array)
+  - Builds a typed schema from raw JSON
+
+- 🧩 **Recursive Rendering**
+  - Supports deeply nested objects
+  - Supports arrays with indexed editing
+
+- 📝 **Editable Configuration**
+  - Users can modify values directly in the UI
+  - Original JSON structure is preserved
+
+- 📤 **Submission & Preview**
+  - Final updated configuration is logged and previewed in read-only mode
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite
+- **Routing:** React Router DOM
+- **Styling:** Plain CSS
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
