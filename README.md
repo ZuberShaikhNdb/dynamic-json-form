@@ -15,48 +15,46 @@ https://github.com/ZuberShaikhNdb/dynamic-json-form.git
 
 ---
 
-## 📌 Problem Overview
+## 📌 Overview
 
-Many internal platforms generate UI dynamically from backend configuration rather than hardcoded forms.  
-These configurations are often deeply nested, evolve over time, and must scale without code changes.
-
-This project demonstrates:
-- Data-driven UI rendering
-- Recursive component design
-- Clean state management for dynamic JSON structures
+This project demonstrates how a frontend application can generate user interfaces dynamically from backend-provided JSON configuration instead of relying on hardcoded forms.  
+It focuses on scalability, clean state management, and recursive rendering for complex and nested configurations.
 
 ---
 
 ## ✨ Features
 
-- 🔁 **Fully Dynamic Rendering**
-  - UI generated entirely from JSON configuration
-  - No hardcoded keys or fields
-
-- 🧠 **Typed Schema Inference**
-  - Automatically infers data types (string, number, boolean, object, array)
-  - Builds a typed schema from raw JSON
-
-- 🧩 **Recursive Rendering**
-  - Supports deeply nested objects
-  - Supports arrays with indexed editing
-
-- 📝 **Editable Configuration**
-  - Users can modify values directly in the UI
-  - Original JSON structure is preserved
-
-- 📤 **Submission & Preview**
-  - Final updated configuration is logged and previewed in read-only mode
+- Fully dynamic UI rendering from JSON configuration
+- Automatic type inference (string, number, boolean, object, array)
+- Recursive rendering for deeply nested data structures
+- Editable configuration with preserved JSON structure
+- Read-only preview of the final updated configuration
+- No hardcoded keys or fields
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React + Vite
-- **Routing:** React Router DOM
-- **Styling:** Plain CSS
-- **Deployment:** Vercel
+- React + Vite
+- React Router DOM
+- JavaScript
+- Plain CSS
+- Vercel (deployment)
 
 ---
 
+## ⚙️ Installation
 
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/ZuberShaikhNdb/dynamic-json-form.git
+cd dynamic-json-form
+
+Install dependencies
+npm install
+
+Run the Application
+npm run dev
+
+Open your browser and visit:
+http://localhost:5173
