@@ -60,4 +60,25 @@ This project demonstrates:
 ---
 
 ## 📂 Project Structure
+src/
+├── components/
+│ ├── JsonForm.jsx # Recursive JSON renderer
+│ ├── FieldRenderer.jsx # Input rendering by data type
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── Editor.jsx
+│ ├── Preview.jsx
+│ └── About.jsx
+│
+├── utils/
+│ ├── schemaBuilder.js # Typed schema generator
+│ └── updateValue.js # Deep JSON state update helper
+│
+├── data/
+│ └── config.json # Sample backend configuration
+│
+├── Layout.jsx
+├── main.jsx
+├── index.css
 
